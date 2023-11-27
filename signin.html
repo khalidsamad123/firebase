@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <title>LOGIN FORM</title>
+</head>
+<body>
+
+        <div class="container">
+            <img src="./rocket.png" alt="rocket" class="rocket">
+            <div class="text">
+                <h1>LOGIN</h1>
+                <p>LANDING PAGE</p>
+            </div>
+            <form  class="form">
+                <div class="animated-input">
+                    <input id="lemail" type="text" placeholder="Email">
+                    <input id="lpass" type="password" placeholder="Password">
+                </div>
+                <div class="check">
+                    <div>
+                        <input type="checkbox" id="check">
+                        <label for="check" class="disc"></label>
+                        <label for="check" class="remember">Remember</label>
+                    </div>
+                    <p class="forget"><a href="#">Forget Password ?</a></p>
+                </div>
+            </form>
+            <button id="sibtn" class="btn" type="submit">LOGIN</button>
+            <p class="account"><a href="./signup.html">Create Account ?</a></p>
+        </div>
+     
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="module" src="configue.js"></script>
+</body>
+</html>
